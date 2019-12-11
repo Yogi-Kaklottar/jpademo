@@ -8,12 +8,12 @@ public class Employee {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
-	private Long id;
+	private int id;
 	private String ename;
 	private int salary;
 	private String deg;
 
-	public Employee(long eid, String ename, int salary, String deg) {
+	public Employee(int eid, String ename, int salary, String deg) {
 		super();
 		this.id = eid;
 		this.ename = ename;
@@ -26,11 +26,11 @@ public class Employee {
 		// TODO Auto-generated constructor stub
 	}
 
-	public Long getEid() {
+	public int getEid() {
 		return id;
 	}
 
-	public void setEid(long eid) {
+	public void setEid(int eid) {
 		this.id = eid;
 	}
 

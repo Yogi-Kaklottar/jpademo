@@ -12,9 +12,9 @@ public class CreateEmployee {
 			
 			em.getTransaction().begin();
 				Employee e=new Employee();
-				e.setEname("yogendra");
-				e.setSalary(15000);
-				e.setDeg("manager");
+				e.setEname("jay");
+				e.setSalary(7000);
+				e.setDeg("hr");
 				
 			em.persist(e);
 			em.getTransaction().commit();
