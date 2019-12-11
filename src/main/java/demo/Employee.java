@@ -60,6 +60,6 @@ public class Employee {
 
 	@Override
 	public String toString() {
-		return "Employee [eid=" + id + ", ename=" + ename + ", salary=" + salary + ", deg=" + deg + "]";
+		return "Employee [eid=" + getEid() + ", ename=" + getEname() + ", salary=" + getSalary() + ", deg=" + getDeg() + "]";
 	}
 }
